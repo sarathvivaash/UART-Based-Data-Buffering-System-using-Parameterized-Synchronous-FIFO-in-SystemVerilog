@@ -4,7 +4,7 @@
 
 This project implements a UART-based data buffering system using SystemVerilog. The main objective of the project is to receive serial UART data, convert it into parallel data using a UART receiver, temporarily store the received bytes in a parameterized synchronous FIFO, and read them back whenever required.
 
-The project was developed to understand RTL design, finite state machines, FIFO operation, UART communication, and verification using SystemVerilog.
+The project was developed to understand RTL design, FIFO operation, UART communication, and verification using SystemVerilog.
 
 
 
