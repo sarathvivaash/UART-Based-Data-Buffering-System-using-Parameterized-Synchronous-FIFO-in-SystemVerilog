@@ -8,6 +8,7 @@ The project was developed to understand RTL design, FIFO operation, UART communi
 
 
 
+
 ## Modules Used
 
 ### 1. Parameterized Synchronous FIFO
@@ -28,6 +29,8 @@ The project was developed to understand RTL design, FIFO operation, UART communi
 - Allows the stored data to be read using the FIFO read interface.
 
 
+
+
 ## Working
 
 1. UART serial data is received through the RX line.
@@ -35,6 +38,8 @@ The project was developed to understand RTL design, FIFO operation, UART communi
 3. Once a byte is received successfully, the UART receiver generates "data_valid".
 4. The received byte is written into the synchronous FIFO.
 5. The stored data can later be read from the FIFO using the read enable signal.
+
+
 
 
 ## Verification
@@ -52,15 +57,19 @@ The following test cases were verified:
 - Top-level UART to FIFO integration
 
 
+
+
 ## Output Waveforms
 
 Simulation waveforms are available in the "output waveforms" folder.
+
 
 
 ## Software Used
 
 - SystemVerilog
 - Xilinx Vivado 2025.2
+
 
 
 ## Future Improvements
